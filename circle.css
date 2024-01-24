@@ -1,0 +1,217 @@
+.fix{
+    pointer-events: painted;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#flex1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 80px;
+}
+.child1{
+color: black;
+text-decoration: none;
+list-style: none;
+}
+#l1,#l2,#l3,#l4,#l5,#l6,#l7{
+    color: black;
+    text-decoration: none;
+}
+#img1{
+    margin-right: 80px;
+}
+#l7{
+    width: auto;
+    color: rgb(12, 187, 199);
+    background-color: white;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 3px solid rgb(12, 187, 199);
+    border-radius: 6px;
+}
+#l7:hover{
+    width: auto;
+    color:white;
+    background-color:rgb(12, 187, 199);;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 3px solid rgb(12, 187, 199);
+    border-radius: 6px;
+
+}
+.parent1{
+
+    background:linear-gradient(180deg,hsl(184, 70%, 87%)55%,white 45%);
+}
+.child2{
+    display: flex;
+    justify-content: center;
+}
+#l8{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    background-color:rgb(12, 187, 199) ;
+    border-radius: 2px;
+}
+.tx1{
+    color: rgb(12, 187, 199);
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(184, 70%, 87%);
+    border-radius: 12px;
+}
+#p1{
+    font-size:larger;
+}
+.parent2{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px;
+
+}
+.parent3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.p2{
+    color:rgb(12, 187, 199);
+}
+.parent4{
+    margin: 150px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.txt2{
+    display: block;
+    width: 90px;
+    color: rgb(12, 187, 199);
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(184, 70%, 87%);
+    border-radius: 12px;
+
+}
+#p3{
+    font-size: x-large;
+}
+#b1 {
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border:1px solid rgb(12, 187, 199) ;
+    background-color:rgb(12, 187, 199) ;
+    border-radius: 4px;
+}
+#im2{
+    border-radius: 15px;
+}
+.child3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#txt3{
+    width: 90px;
+    color: rgb(12, 187, 199);
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(184, 70%, 87%);
+    border-radius: 12px;
+}
+#p4
+{
+    font-size: x-large;
+}
+.parent5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child4{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 70px;
+    align-items: center;
+}
+.bg1
+{
+    background-color: rgb(246, 230, 227);
+    flex-direction:column ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+}
+.bg2
+{
+    background-color: rgb(255, 220, 241);
+    flex-direction:column ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+}
+.bg3
+{
+    background-color: hsl(184, 70%, 87%);;
+    flex-direction:column ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+}
+.bg4{
+    background-color: rgb(218, 213, 241);
+    flex-direction:column ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+}
+.bg5
+{
+    background-color: rgb(249, 241, 219);
+    flex-direction:column ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+}
+.bg6{
+    background-color:rgb(244, 222, 211);
+    flex-direction:column ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 10px;
+}
+.parent6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txt4
+{
+    color: rgb(12, 187, 199);
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(184, 70%, 87%);
+    border-radius: 12px;
+}
